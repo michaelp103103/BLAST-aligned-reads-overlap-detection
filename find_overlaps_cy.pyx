@@ -111,15 +111,6 @@ def find_overlaps(filepath1, savepath1, overlap_length1=50):
     list_0 = check_data(df, overlap_length1)
     
     create_overlap_table(list_0, overlap_length1, savepath1)
-    
-	
-	
-	
-	
-
-#find_overlaps(filepath1='/user/jzola/projects/mepiskoz/identify overlaps/ERR2906227_blast/ERR2906227_g10.blast', overlap_length1 = 10, 
-#savepath1='/user/jzola/projects/mepiskoz/identify overlaps/overlaps/overlaps_len10_g10')
-
 
 
 
