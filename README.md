@@ -26,7 +26,7 @@ savepath1='/save/file/path')
 The program recognizes BLAST output files of the following output format only:
 
 ```
--outfmt "6 qseqid sstart send evalue bitscore pident"
+blastn ... -outfmt "6 qseqid sstart send evalue bitscore pident ..."
 ```
 
 The program outputs a tab-delimited text file in the following format:
