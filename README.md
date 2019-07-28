@@ -26,7 +26,7 @@ savepath1='/save/file/path')
 The program recognizes BLAST output files of the following output format only:
 
 ```
-blastn ... -outfmt "6 qseqid sstart send evalue bitscore pident ..."
+blastn ... -outfmt "6 qseqid sstart send evalue bitscore pident" ...
 ```
 
 The program outputs a tab-delimited text file in the following format:
@@ -41,7 +41,7 @@ overlap. `strand_orientation1` and `strand_orientation2` are the orientations of
 respectively. Strand orientation can be either `F`, for forward, or `R`, for reverse.
 
 The output file does NOT contain any duplicate overlaps (i.e., if A overlaps with B, then this overlap will be recorded only once) and 
-it does NOT contain record a read overlapping with itself.
+it does NOT contain overlaps between a read and itself.
 
 # Authors
 Michael Piskozub
